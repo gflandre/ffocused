@@ -10,4 +10,4 @@
 
     #photos
       - @category.photos.activated.ordered.limited.each_with_index do |photo, i|
-        = render :partial => "photo", :locals => {:photo => photo, :i => i}
+        = render :partial => "photo", :locals => {:photo => photo, :i => i, :asynchronous_photo_loading => true}

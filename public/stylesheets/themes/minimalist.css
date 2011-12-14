@@ -50,7 +50,7 @@ body{
 header{
   padding-left: 10px;
   width: 100px;
-  height: 40px;
+  height: 48px;
   overflow: hidden;
   line-height: 16px;
   padding-top: 60px;
@@ -105,6 +105,14 @@ header p{
 }
 #content #photos .photo{
   margin-top: 60px;
+}
+.account-flickr  #category-showcase .image-wrapper,
+.account-facebook #category-showcase .image-wrapper{
+  height: 680px;
+}
+.account-instagram #category-showcase .image-wrapper{
+  height: 480px;
+  width: 480px;
 }
 .account-flickr #content #photos .photo img,
 .account-facebook #content #photos .photo img{

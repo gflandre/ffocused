@@ -16,6 +16,11 @@ class FrontController < ApplicationController
 
   def about
   end
+  
+  def retrieve_photo
+    photo = @category.photos.find(params[:photo_id])
+    render :partial => "img_tag", :locals => {:photo_url => photo.large_photo_url}
+  end
 
   private
 

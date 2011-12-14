@@ -13,3 +13,16 @@
   font-weight: normal;
   text-shadow: 0 1px 0px black;
 }
+
+/* Default image wrapper options */
+#category-showcase .image-wrapper{
+  background: no-repeat url("/images/loader.gif") 50% 5%;
+}
+.account-facebook #category-showcase .image-wrapper,
+.account-flickr #category-showcase .image-wrapper{
+  height: 680px;
+}
+.account-instagram #category-showcase .image-wrapper{
+  width:612px;
+  height:612px;
+}
